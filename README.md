@@ -1,5 +1,5 @@
 # Lin-Lab
-Matrix calculator that performs many of the same functions as an expensive calculator or software package but for a fraction of the cost.
+Matrix calculator for iOS that performs many of the same functions as an expensive calculator or software package.
 
 ★ Add, view, delete, edit, and resize matrix variables with an easy-to-use interface.
 
