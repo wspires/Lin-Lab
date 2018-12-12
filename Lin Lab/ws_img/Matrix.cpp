@@ -2245,10 +2245,10 @@ Matrix::best_mult_order( std::vector< Matrix >& matrices,
 	// place to store counts--initialized to 0
 	Matrix::Matrix_Int M( n, Matrix::Vector_Int( n, 0 ) );
 
-	for( int q = n - 2; q >= 0; q-- )  // q must be of type int
+	for( long q = n - 2; q >= 0; q-- )  // q must be of type int
 	{
 		int i = 0;
-		int j = n - q - 1;
+		long j = n - q - 1;
 		for( ; i <= q; i++, j++ )
 		{
 			/*
@@ -2662,7 +2662,7 @@ Matrix::bicubic_scale( size_type new_height, size_type new_width )
 		else // scaled_mat.real_row_size() == real_row_size()
 		{
 			get_scaled_row( unscaled_row, &scaled_rows[0],
-					y, scaled_mat.real_col_size() );
+					(int)y, scaled_mat.real_col_size() );
 
 			// copy row into output matrix
 			for( size_type x = 0; x != scaled_mat.real_col_size(); ++x )
