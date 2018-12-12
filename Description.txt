@@ -1,0 +1,15 @@
+Matrix calculator that performs many of the same functions as an expensive calculator or software package but for a fraction of the cost.
+
+★ Add, view, delete, edit, and resize matrix variables with an easy-to-use interface.
+
+★ Do basic matrix operations such as addition, subtraction, and multiplication.
+
+★ Perform advanced matrix calculations, including Gaussian and Gauss-Jordan elimination, inverse, determinant, and trace.
+
+★ Command history makes running the same operation over and over again fast and easy.
+
+★ Shortcut buttons simplify generating identity matrices and random data.
+
+★ Documentation page clearly explains all supported matrix operations and functions.
+
+★ Impress your friends by solving those cumbersome systems of linear equations that occur in your daily life!

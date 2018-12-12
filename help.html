@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Help</title>
+	</head>
+	<body>
+		<p>
+        Here are sample expressions showing the functions and operators that the calculator supports.</p>
+		<p>
+        <strong>Addition</strong>: <em>A + B</em>&nbsp;adds matrices <strong>A</strong> and <strong>B</strong> together. Likewise, <em>A - B</em>&nbsp;subtracts <strong>A</strong> and <strong>B</strong>.&nbsp;<strong>A</strong> and <strong>B</strong> must have the same size.</p>
+		<p>
+        <strong>Assignment</strong>:&nbsp;<em>C = A + B</em>&nbsp;adds <strong>A</strong> and <strong>B</strong> together and assigns the result to <strong>C</strong>. If <strong>C</strong> does not exist, then it is created and added to the list of variables. If <strong>C</strong> already exists, then <strong>C</strong> is overwritten with the new value.</p>
+		<p>
+        <strong>Multiplication</strong>: <em>C = A * B</em>&nbsp;computes the matrix product of <em>nxm</em> matrix&nbsp;<strong>A</strong> and <em>mxp</em> matrix&nbsp;<strong>B</strong>&nbsp;producing&nbsp;<em>nxp</em> matrix <strong>C</strong> as the result. Matrix multiplication is only defined if the number of columns in <strong>A</strong> is the same as the number of rows in <strong>B</strong> (i.e.,&nbsp;<em>m</em>). <em>2 * A</em>&nbsp;performs scalar multiplication&nbsp;by multiplying every element of matrix&nbsp;<strong>A</strong> by the scalar 2 with the resulting matrix having the same size as <strong>A</strong>.</p>
+		<p>
+        <strong>Transpose</strong>: <em>B = &#39;A</em>&nbsp;transposes <em>nxm</em> matrix <strong>A</strong>, returning an <em>mxn</em> matrix <strong>B</strong> in which the rows of <strong>B</strong> are the columns of <strong>A</strong> and the columns of <strong>B</strong> are the rows of <strong>A</strong>.</p>
+		<p>
+        <strong>Gaussian Elimination</strong>:&nbsp;<em>ref(A)</em>&nbsp;performs Gaussian elimination, yielding the row-echelon form of&nbsp;<strong>A</strong>.&nbsp;<em>rref(A)</em>&nbsp;performs Gauss-Jordan elimination, yielding the <em>reduced</em> row-echelon form of&nbsp;<strong>A</strong>.</p>
+		<p>
+        <strong>Inverse</strong>:&nbsp;<em>inv(A)</em>&nbsp;calculates the inverse of&nbsp;<strong>A</strong>. <strong>A</strong> must be square to compute its inverse.</p>
+		<p>
+        <strong>Solve</strong>: <em>X = solve(A, B)</em>&nbsp;solves the system of linear equations <strong>Ax</strong>=<strong>b</strong> for each column vector <strong>b</strong> in matrix <strong>B</strong>, storing each solution <strong>x</strong> as a column vector in matrix <strong>X</strong>. <strong>A</strong> and&nbsp;<strong>B</strong>&nbsp;must have the same number of rows. &nbsp;<em>B / A</em>&nbsp;also performs this function.</p>
+		<p>
+        <strong>Determinant</strong>:&nbsp;<em>det(A)</em>&nbsp;calculates the determinant of&nbsp;<strong>A</strong>.&nbsp;<strong>A</strong> must be square to compute its determinant.</p>
+		<p>
+        <strong>Rank</strong>: <em>rank(A)</em> calculates the rank of matrix <strong>A</strong>, the number of linearly independent rows or columns.&nbsp;<em>null(A)</em> calculates the dimension of the null space of <strong>A</strong>, or nullity of <strong>A</strong>.</p>
+		<p>
+        <strong>Trace</strong>: <em>tr(A)</em>&nbsp;computes the trace of <strong>A</strong>, the sum of the elements along the main diagonal of <strong>A</strong>.</p>
+		<p>
+        <strong>Augment</strong>: <em>aug(A, B)</em>&nbsp;creates an augmented matrix from <strong>A</strong> and <strong>B</strong>. The augmented matrix consists of the columns of <strong>A</strong> followed by the columns of <strong>B</strong>.</p>
+		<p>
+        <strong>Sub-matrix</strong>: <em>sub(A, 0, 1, 2, 3)</em>&nbsp;creates a sub-matrix from <strong>A</strong>. The sub-matrix is the <em>2x3</em> matrix starting with the element at row 0 and column 1 in&nbsp;<strong>A</strong>.</p>
+		<p>
+        <strong>Equality</strong>: <em>A == B</em>&nbsp;compares matrices&nbsp;<strong>A</strong>&nbsp;and&nbsp;<strong>B</strong>&nbsp;for equality. If&nbsp;<strong>A</strong>&nbsp;and&nbsp;<strong>B</strong>&nbsp;have the same sizes and the same elements, then the result is 1; otherwise, the result is 0. <em>A != B</em>&nbsp;compares for inequality where the result is 1 if either&nbsp;<strong>A</strong>&nbsp;and&nbsp;<strong>B</strong>&nbsp;have different sizes or at least 1 element differs between the two matrices; otherwise the result is 0.</p>
+		<p>
+        <strong>Comparison</strong>:&nbsp;<em>A &lt; B</em>&nbsp;compares matrices&nbsp;<strong>A</strong>&nbsp;and&nbsp;<strong>B</strong>, returning 1&nbsp;if every element in&nbsp;<strong>A</strong>&nbsp;is strictly less than every element in&nbsp;<strong>B</strong>; otherwise, 0 is returned. The comparison operators are&nbsp;<em>&lt;</em>,&nbsp;<em>&lt;=</em>,&nbsp;<em>&gt;</em>, and&nbsp;<em>&gt;=</em>. <strong>A</strong> and <strong>B</strong> must have the same size.</p>
+		<div>
+			<p>
+            <strong>Exponentiation</strong>: <em>A^3</em>&nbsp;multiples&nbsp;<strong>A</strong>&nbsp;with itself 3 times. The exponent (e.g., 3) must be a non-negative integer. If the exponent is 0, then the resulting matrix has the same size as&nbsp;<strong>A</strong>&nbsp;and 1 for every element. The base (e.g.,&nbsp;<strong>A</strong>) can be either a matrix or a scalar.</p>
+			<div>
+				&nbsp;</div>
+		</div>
+	</body>
+    <!-- http://www.quackit.com/html/online-html-editor/ -->
+</html>

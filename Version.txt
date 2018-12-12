@@ -1,0 +1,26 @@
+1.4
+• TODO
+
+1.3
+• iOS 7 support!
+
+1.2
+• Updated to a Universal app, so Mat Calc looks natural on the iPad!
+
+1.1
+• Added square root (sqrt), exponential (exp), natural logarithm (log), logarithm base-10 (log10) functions.
+• Added trigonometric functions: sine (sin), cosine (cos), tangent (tan), arcsine (asin), arccosine (acos), and arctangent (atan). Also, added mathematical constant "pi" as an identifier.
+• Can enter an expression in a matrix cell in the editor tab, e.g., "3 / 4"
+  or "sin(3 / 4 * pi)".
+• Added the Moore-Penrose pseudo inverse function, pinv, which "pinv(A) == inv('A * A) * 'A" (technically, this is the one-sided inverse).
+
+----------
+Keywords (100 bytes, comma-separated):
+matrix calculator,matrix,calculator,matrix algebra,linear algebra,multiplication,inverse,math
+0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+        10        20        30        40        50        60        70        80        90       100
+
+Serial #:   85941A8F3NP
+ECID:       2688013057295
+Identifier: af6fafb82b5878dd6e2ff715a3a8c79f91e5df24
+

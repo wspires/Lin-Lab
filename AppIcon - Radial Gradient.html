@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      #myCanvas {
+        border: 1px solid #9C9898;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="1024" height="1024" style="display:none;"></canvas>
+    <img id="canvasImg" alt="Right click to save me!">
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      context.rect(0, 0, canvas.width, canvas.height);
+
+      // Create radial gradient.
+      var grd = context.createRadialGradient(528, 528, 0, 528, 528, 650);
+        
+      // Start and end colors for gradient: off-white to light gray.
+      grd.addColorStop(0, '#ededed');
+      grd.addColorStop(1, '#708090');
+
+      context.fillStyle = grd;
+      context.fill();
+
+      var dataURL = canvas.toDataURL();
+      document.getElementById('canvasImg').src = dataURL;
+    </script>
+  </body>
+</html>
