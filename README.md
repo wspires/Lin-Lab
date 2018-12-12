@@ -18,7 +18,7 @@ Matrix calculator that performs many of the same functions as an expensive calcu
 The expression calculator can be built standalone and ran at the command-line for scalar (non-matrix) operands.
 For example, run the script run.sh to build and run the demo app for a few test cases:
 ```
-$ cd Lin Lab/exp_eval
+$ cd "Lin Lab/exp_eval"
 $ ./run.sh
 g++ -c  -std=c++14 -g -Wall main.cpp
 g++ -c  -std=c++14 -g -Wall All_Functions.cpp
