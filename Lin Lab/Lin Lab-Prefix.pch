@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'Lin Lab' target in the 'Lin Lab' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+//#define MA_DEBUG_MODE
+
+#ifdef MA_DEBUG_MODE
+#define DLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DLog( s, ... )
+#endif
+
+#define SFmt( s, ... ) [NSString stringWithFormat:(s), ##__VA_ARGS__]
+
+#define Localize( s ) NSLocalizedString((s), nil)
