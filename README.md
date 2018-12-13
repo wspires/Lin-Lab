@@ -15,6 +15,7 @@ Matrix calculator for iOS that performs many of the same functions as an expensi
 
 ★ Impress your friends by solving those cumbersome systems of linear equations that occur in your daily life!
 
+## Expression Calculator
 The expression calculator can be built standalone and ran at the command-line for scalar (non-matrix) operands.
 For example, run the script run.sh to build and run the demo app for a few test cases:
 ```
